@@ -1,0 +1,200 @@
+{
+	"channelmemorymaps": [
+		""
+	],
+	"show_setup": {
+		"events": {
+			"01_01.fevt": [
+				"majorID=1",
+				"minorID=1",
+				"name='Turn on Sign'",
+				"effect=''",
+				"startChannel=",
+				"script='TurnOnSign.sh'",
+				""
+			]
+		},
+		"playlist": {
+			"Power_Test": [
+				"0,0,",
+				"s,Power Test.fseq,",
+				""
+			],
+			"Setup": [
+				"0,0,",
+				"s,Setup.fseq,",
+				""
+			],
+			"Christmas_2017": [
+				"0,0,",
+				"b,Christmas 2017 v2.fseq,Christmas_2017_v4.mp3,",
+				"b,Christmas 2017 v2 - No Count Down.fseq,Christmas_2017_v4_Ending.mp3,",
+				""
+			],
+			"Christmas_": [
+				"0,0,",
+				"b,Christmas 2017 v2.fseq,Christmas_2017_v3.mp3,",
+				""
+			],
+			"test": [
+				"0,0,",
+				"b,Christmas 2017 v2 - No Count Down.fseq,Christmas_2017_v4_Ending.mp3,",
+				""
+			],
+			"Christmas_Party": [
+				"1,1,",
+				"s,hour_countdown.fseq,",
+				"b,Christmas 2021 v3.fseq,Christmas_2021_v1.mp3,",
+				"b,Christmas 2021 v3 Last Show.fseq,Christmas_2021_v1_LastShow.mp3,",
+				""
+			],
+			"Halloween": [
+				"0,0,",
+				"s,Halloween2020.fseq,",
+				""
+			],
+			"CU": [
+				"0,0,",
+				"s,BUFFS 2020.fseq,",
+				""
+			],
+			"Christmas_2018": [
+				"1,1,",
+				"s,Count Down.fseq,",
+				"b,Christmas 2018 Final.fseq,Christmas_2018_Final.mp3,",
+				"b,Christmas 2018 Final Last Show.fseq,Christmas_2018_Final_LastShow.mp3,",
+				""
+			],
+			"2018_Just_Show": [
+				"0,0,",
+				"b,Christmas 2018 Final.fseq,Christmas_2018_Final.mp3,",
+				""
+			],
+			"Hi_Scott": [
+				"0,0,",
+				"s,Hi Scott.fseq,",
+				""
+			],
+			"Christmas_2019": [
+				"1,1,",
+				"s,Count Down.fseq,",
+				"b,Christmas 2019 v5.fseq,Christmas2019_Eta.mp3,",
+				"b,Christmas 2019 v5.fseq,Christmas2019_Eta_LastShow.mp3,",
+				""
+			],
+			"2019_Just_Show": [
+				"0,0,",
+				"b,Christmas 2019 v5.fseq,Christmas2019_Eta.mp3,",
+				""
+			],
+			"blah": [
+				"0,0,",
+				"s,blah.fseq,",
+				""
+			],
+			"Vote": [
+				"0,0,",
+				"s,vote.fseq,",
+				""
+			],
+			"Christmas_2020": [
+				"1,1,",
+				"s,10 Minute Countdown.fseq,",
+				"b,Christmas 2020.fseq,BroomfieldLights_2020.mp3,",
+				"b,Christmas 2020 Final Show.fseq,BroomfieldLights_2020_LastShow.mp3,",
+				""
+			],
+			"2020_Just_Show": [
+				"0,0,",
+				"b,Christmas 2020.fseq,BroomfieldLights_2020.mp3,",
+				""
+			],
+			"Carrie_and_Wyatt": [
+				"0,0,",
+				"s,Carrie and Wyatt.fseq,",
+				""
+			],
+			"Static_Display": [
+				"0,0,",
+				"b,StaticDisplay.fseq,StaticDisplay.mp3,",
+				""
+			],
+			"Christmas_2021": [
+				"1,1,",
+				"s,10 Minute Countdown.fseq,",
+				"b,Christmas_2021_v3.fseq,Christmas_2021_v1.mp3,",
+				"b,Christmas 2021 v3 Last Show.fseq,Christmas_2021_v1_LastShow.mp3,",
+				""
+			],
+			"2021_just_show": [
+				"0,0,",
+				"b,Christmas_2021_v3.fseq,Christmas_2021_v1.mp3,",
+				""
+			]
+		},
+		"schedule": {
+			"schedule": [
+				"0,Christmas_2021,7,16,50,00,21,49,00,1,2014-01-01,2099-12-31,",
+				"1,Static_Display,7,16,30,00,22,59,00,1,2014-01-01,2099-12-31,",
+				"0,Christmas_Party,7,17,00,00,21,49,00,1,2014-01-01,2099-12-31,",
+				"0,2021_just_show,7,23,00,00,24,00,00,1,2014-01-01,2099-12-31,"
+			]
+		},
+		"scripts": {
+			"TurnOnSign.sh": [
+				"#!/bin/sh",
+				"",
+				"# turn on the sign",
+				"fppmm -c 4058 -s 255"
+			]
+		}
+	},
+	"settings": {
+		"PiFaceDetected": "0",
+		"FalconHardwareDetected": "0",
+		"restartFlag": "0",
+		"MultiSyncRemotes": "192.168.1.139",
+		"MultiSyncRefreshStatus": "1",
+		"E131Enabled": "1",
+		"fppMode": "player",
+		"volume": "100",
+		"AudioOutput": "0",
+		"AudioMixerDevice": "PCM",
+		"piRTC": "N",
+		"ntpServer": "",
+		"rebootFlag": "0",
+		"HostName": "FPP",
+		"controlMajor": "0",
+		"controlMinor": "0",
+		"NTP": "0"
+	},
+	"timezone": [
+		"US/Mountain",
+		""
+	],
+	"universes": [
+		"1,1,1,390,1,192.168.1.207,",
+		"1,2,391,450,1,192.168.1.206,",
+		"1,3,841,348,1,192.168.1.206,",
+		"1,4,1189,387,1,192.168.1.206,",
+		"1,5,1576,318,1,192.168.1.206,",
+		"1,6,1894,453,1,192.168.1.107,",
+		"1,7,2347,429,1,192.168.1.107,",
+		"1,8,2776,348,1,192.168.1.206,",
+		"1,9,3124,426,1,192.168.1.206,",
+		"1,11,3550,144,1,192.168.1.102,",
+		"1,12,3694,144,1,192.168.1.103,",
+		"1,13,3838,216,1,192.168.1.104,",
+		"1,10,4054,5,0,,",
+		"1,14,4059,510,1,192.168.1.106,",
+		"1,15,4569,36,1,192.168.1.106,",
+		"1,16,4605,222,1,192.168.1.207,",
+		"1,17,4827,510,1,192.168.1.105,",
+		"1,18,5337,510,1,192.168.1.105,",
+		"1,19,5847,510,1,192.168.1.105,",
+		"1,20,6357,510,1,192.168.1.105,",
+		""
+	],
+	"protected": true,
+	"platform": "Raspberry Pi"
+}
